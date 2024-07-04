@@ -1,0 +1,8 @@
+language: dart
+
+dart:
+  - stable
+
+script:
+  - dart analyze
+  - dart test
